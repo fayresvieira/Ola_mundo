@@ -33,8 +33,16 @@ public class OlaMundo extends HttpServlet {
         out.println("<html>");
         out.println("<head><title>Ola Mundo Servlet</title></head>");
         out.println("<body>");
+        out.println("<table border=1>");
+        out.println("<tr>");
+        out.println("<td>");
         out.println("Ola Mundo - requisicao recebida via POST");
+        out.println("</td>");
+        out.println("<td>");
         out.println("<br/>Data atual: " + new java.util.Date());
+        out.println("</td>");
+        out.println("</tr>");
+        out.println("</table>");
         out.println("</body>");
         out.println("</html>");
         // Vai imprimir na console do tomcat

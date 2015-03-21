@@ -20,7 +20,7 @@
  
    <servlet-mapping>
      <servlet-name>olamundo</servlet-name>
-     <url-pattern>/olaMundo</url-pattern>
+     <url-pattern>/om</url-pattern>
    </servlet-mapping>
 
 </web-app>
